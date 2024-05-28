@@ -275,7 +275,7 @@ function App() {
 
 If you can't place your reference element as a child inside `<Tippy />`, you can
 use this prop instead. It accepts a React `RefObject` (`.current` property) or a
-plain `Element`.
+plain `Element`. Make sure to render `<Tippy />` after the referenced element.
 
 ```jsx
 function App() {
